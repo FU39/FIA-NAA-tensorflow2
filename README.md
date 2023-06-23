@@ -44,7 +44,7 @@
 
 原文作者使用的数据集在 `./dataset/images/`，我构建的数据集在 `./dataset/images_ILSVRC2012/`。
 
-若想自行构建新的数据集，可运行 `./dataset/tackle_imagenet.py` ，运行前请先下载 ILSVRC2012验证集，根据 https://github.com/pytorch/examples/tree/main/imagenet 解压数据集，并修改代码中的各路径。
+若想自行构建新的数据集，可运行 `./dataset/tackle_imagenet.py` ，运行前请先下载 ILSVRC 2012验证集，根据 https://github.com/pytorch/examples/tree/main/imagenet 解压数据集，并修改代码中的各路径。
 
 注意，本实验所用代码中并未设置数据集大小的参数传递api端口，如有需要，请自行修改代码，并替换 `./labels.txt`。
 
